@@ -405,6 +405,28 @@ thead th {
     padding-top: 50px;
 }
 
+.morecontainer {
+    position: relative;
+}
+
+.background-imagemore {
+    background-image: url('https://www.shutterstock.com/image-photo/apothecary-natural-wellness-selfcare-herbs-260nw-1565155225.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+.imagemore-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
 
 
 
