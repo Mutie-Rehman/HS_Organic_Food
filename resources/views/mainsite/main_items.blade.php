@@ -52,7 +52,11 @@
 
     
     <body>
-
+    <div class="morecontainer">
+  <div class="background-imagemore">
+<h1 class="imagemore-heading">EPLORE ITEMS HERE</h1>
+  </div>
+</div>
 </div>
     <footer class="site-footer bg-dark text-center">
         <div class="container">
