@@ -145,7 +145,7 @@
                 <br>
                 easily if you want to know more about prices then you can visit the price section.
             </p>
-            <a style="padding: 10px;" href="{{url('/myPrice')}}" id="home-btn" target="_blank" class=" btn">Price</a>
+            <a style="padding: 10px;" href="{{url('/myPrice')}}" id="home-btn"  class=" btn">Price</a>
         </div>
     </section>
 
@@ -176,14 +176,14 @@
                 <br>
                 which will be useful for you in your house. Which you can use in cooking and enjoy them.
             </p>
-            <a style="padding: 10px;" href="{{url('/myItem')}}" id="home-btn" target="_blank" class=" btn">Explore items</a>
+            <a style="padding: 10px;" href="{{url('/myItem')}}" id="home-btn"  class=" btn">Explore items</a>
         </div>
     </section>
 
 
 
     <!-- CONTACT Us-->
-    <section class="contact section" id="contactus">
+    <section class="contact-section" id="contactus">
         <div class="container">
             <div class="contact-content text-center d-flex flex-column align-items-center">
                 <h1 class="contact-center">Contact Us</h1>
@@ -193,7 +193,7 @@
                 <p class="text-center"><b>If you want to ask anything or register a complaint, click the button
                         below.</b></p>
                 <div class="mt-3">
-                    <a style="padding: 10px;" href="{{url('/contact-us')}}" id="home-btn" target="_blank" class=" btn">Click Me</a>
+                    <a style="padding: 10px;" href="{{url('/contact-us')}}" id="home-btn" class=" btn">Click Me</a>
                 </div>
             </div>
         </div>

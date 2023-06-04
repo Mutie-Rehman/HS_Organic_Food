@@ -322,7 +322,6 @@ thead th {
 /*---------------------------------------
    About Us             
 -----------------------------------------*/
-
 .about {
     text-align: center;
     padding-top: 50px;
@@ -394,15 +393,20 @@ thead th {
 /*---------------------------------------
    More Items             
 -----------------------------------------*/
-
-.about {
+.items {
     text-align: center;
     padding-top: 50px;
 }
 
-.items {
+.itemstext {
     text-align: center;
     padding-top: 50px;
+}
+
+.items pre {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .morecontainer {
@@ -428,7 +432,40 @@ thead th {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
+.mycard {
+    font-weight: bold;
+    color: red;
+    margin: 50px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
 
+.mycard img {
+    padding-right: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.mycard .price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.mycard .name {
+    margin-top: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
 
 /*---------------------------------------
    CONTACT              
@@ -437,6 +474,12 @@ thead th {
     display: flex;
     justify-content: center;
     color: black;
+}
+
+.contact-section {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #Cbtn {

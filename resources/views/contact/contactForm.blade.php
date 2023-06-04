@@ -67,7 +67,7 @@
     <div class="container">
         <div class="row mt-5 mb-5">
             <div class="col-10 offset-1 mt-5">
-                <div class="card" >
+                <div class="card">
                     <div class="card-header" style="background-color: palevioletred;">
                         <h3 class="text-white">We Are Ready, Let's Talk</h3>
                     </div>

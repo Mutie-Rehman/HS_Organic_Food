@@ -35,10 +35,7 @@ Route::get('/', function () {
    |-------------------------------------------------------------------------- */ 
    Route::get('/contact-us', [ContactController::class, 'index']);
    Route::post('/contact-us', [ContactController::class, 'store'])->name('contact.us.store');
-//    Route::get("/myHome", [MainController::class, 'home']);
-//    Route::get("/myPrice", [MainController::class, 'price']);
-//    Route::get("/myAbout", [MainController::class, 'about']);
-//    Route::get("/myItem", [MainController::class, 'item']);
+
 
 
 

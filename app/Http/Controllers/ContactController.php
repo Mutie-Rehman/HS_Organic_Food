@@ -38,23 +38,34 @@ class ContactController extends Controller
                          ->with(['success' => 'Thank you for contact us. we will contact you shortly.']);
     }
 
-    // public function home()
+    // public function open_file_form()
+    // { return view ('/files/Upload_file'); }
+   
+    // public function store_file(Request $req)
     // {
-    //     return view('/mainsite/main_home');
-    // }
+    //     $req->validate([ 
+    //         'file'=> 'required|mimes:pdf,doc,docx,xlx,csv,jpg,png|max:4048',
+    //       ]); 
+        
+    //       $filename = time().'.'.$req->file->extension(); 
+    //       $req->file->move('uploads', $filename);
+        
+    //       $req->file->storeAs('public', $filename);
+    //       return redirect('/files/Upload_file');
+    //       $filewritter = new filings;
+    //        $filewritter -> file = $filename;
+    //         $filewritter->save();
+    //          return redirect('/files/Upload_file');
+    // } 
 
-    // public function price()
-    // {
-    //     return view('/mainsite/main_price');
-    // }
+    // public function show_file_data()
+    // { $data = filings::all(); 
+    //     return view('File_Upload.display_file_data', compact('data')); }
 
-    // public function about()
-    // {
-    //     return view('/mainsite/main_about');
-    // }
+    //     public function file_view($id)
+    //     { $data = filings::find($id);
+    //          return view ('File_Upload.View_file', compact('data')); }
 
-    // public function item()
-    // {
-    //     return view('/mainsite/main_items');
-    // }
+    //          public function file_download($file)
+    //          { return response()->download(public_path('uploads/'.$file)); }
 }
