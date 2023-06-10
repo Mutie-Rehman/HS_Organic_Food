@@ -143,7 +143,7 @@ Step into a world of wellness and culinary delight with our exquisite range of o
                     <i class="fab fa-facebook-f"></i>
                     <span class="icon-name">Facebook</span>
                 </a>
-                <a href="https://www.instagram.com/your_instagram_id/"  target="_blank">
+                <a href="https://www.instagram.com/hsorganicofficial/"  target="_blank">
                     <i class="fab fa-instagram"></i>
                     <span class="icon-name" style="color: purple;">Instagram</span>
                 </a>
