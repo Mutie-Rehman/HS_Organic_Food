@@ -25,6 +25,11 @@ class MainController extends Controller
     {
         return view('/mainsite/main_items');
     }
+
+    public function review()
+    {
+        return view('/mainsite/main_review');
+    }
         
     
 }
