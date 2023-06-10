@@ -25,10 +25,10 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'name' => 'required',
+            'name' => 'required|string',
             'email' => 'required|email',
             'phone' => 'required|digits:11|numeric',
-            'subject' => 'required',
+            'subject' => 'required|string',
             'message' => 'required'
         ]);
   

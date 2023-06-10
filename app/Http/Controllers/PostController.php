@@ -15,14 +15,21 @@ class PostController extends Controller
     }
 
     public function store(Request $request){
+        $request->validate([
+            'author' => 'required|string',
+            'title' => 'required|string',
+            'description' => 'required|string'
+        ]);
+    
         $post = new Post();
         $post->author = $request->author;
-        $post->title  = $request->title;
+        $post->title = $request->title;
         $post->description = $request->description;
         $post->save();
+    
         return redirect()->route('post.list');
-
     }
+    
 
     public function list()
     {
@@ -36,14 +43,25 @@ class PostController extends Controller
     }
 
     public function reviewstore(Request $request){
+        $request->validate([
+            'post_id' => 'required',
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'phone' => 'required|digits:11|numeric',
+            'comment' => 'required',
+            'rating' => 'required'
+        ]);
+    
         $review = new ReviewRating();
         $review->post_id = $request->post_id;
-        $review->name    = $request->name;
-        $review->email   = $request->email;
-        $review->phone   = $request->phone;
-        $review->comments= $request->comment;
+        $review->name = $request->name;
+        $review->email = $request->email;
+        $review->phone = $request->phone;
+        $review->comments = $request->comment;
         $review->star_rating = $request->rating;
         $review->save();
-        return redirect()->back()->with('flash_msg_success','Your review has been submitted Successfully,');
+    
+        return redirect()->back()->with('flash_msg_success','Your review has been submitted successfully.');
     }
+    
 }
