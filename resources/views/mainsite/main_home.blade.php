@@ -47,6 +47,10 @@
                     <li class="nav-item">
                         <a href="{{url('/myItem')}}" class="nav-link smoothScroll">More Items</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="{{url('/myReview')}}" class="nav-link smoothScroll">Reviews</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -68,9 +72,9 @@
         <div class="hcontainer">
             <div class="product-text text-center">
                 <b>
-                    HS Organic Product provide Cow Desi Ghee and HS Honey in
-                    <br>
-                    best quality form!!</b>
+                Experience pure delight with HS Organic Product's exquisite Cow
+                <br>
+                 Desi Ghee and HS Honey, unmatched in quality.</b>
             </div>
             <div class="product-images">
                 <div>
@@ -141,9 +145,10 @@
     <section class="price" id="price">
         <div class="pricecontainer contact-content text-center d-flex flex-column align-items-center">
             <h1>PRICES OF PRODUCTS</h1>
-            <p>We are here to provide you the quality products in the best price which is affordable by every person
+            <p>
+                Discover premium products offered at unbeatable prices, making quality affordable for everyone. 
                 <br>
-                easily if you want to know more about prices then you can visit the price section.
+For detailed pricing information, explore our dedicated price section.
             </p>
             <a style="padding: 10px;" href="{{url('/myPrice')}}" id="home-btn"  class=" btn">Price</a>
         </div>
@@ -186,7 +191,7 @@
     <section class="contact-section" id="contactus">
         <div class="container">
             <div class="contact-content text-center d-flex flex-column align-items-center">
-                <h1 class="contact-center">Contact Us</h1>
+                <h1 class="contact-center">GET IN TOUCH</h1>
                 <p class="text-center">Feel free to reach out to us with any inquiries or feedback. If you have any
                     complaints or suggestions on how we can improve our products and make it more loveable for
                     our customers, we would love to hear from you.</p>
@@ -204,7 +209,7 @@
     <footer class="site-footer bg-dark text-center">
         <div class="container">
             <div class="social-icons">
-                <a href="https://www.facebook.com/your_facebook_username_or_page_id/" target="_blank">
+                <a href="https://web.facebook.com/hsorganicofficial" target="_blank">
                     <i class="fab fa-facebook-f"></i>
                     <span class="icon-name">Facebook</span>
                 </a>

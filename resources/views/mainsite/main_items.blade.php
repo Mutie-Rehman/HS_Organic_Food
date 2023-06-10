@@ -45,6 +45,10 @@
                     <li class="nav-item">
                         <a href="{{url('/myItem')}}" class="nav-link smoothScroll">More Items</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="{{url('/myReview')}}" class="nav-link smoothScroll">Reviews</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -60,10 +64,10 @@
 <div class="items">
     <div class="itemstext">
     <pre>
-You can have many more products other than the Honey and Desi Ghee which can be use for improving the health.
-We are here to provide you the quality products which you can use in your daily life to maintain good health.
-You can have anything which is related to nature in our store. These thing include Honey, Desi Ghee, Herbs,
-Oils, Vinegars and many more things which can be very helpful in your dailylife and maintaining health.
+    Unlock the ultimate secrets of health and flavor with our premium Honey and Desi Ghee. 
+Elevate your culinary experience and harness their miraculous healing properties. 
+Indulge in our organic treasures, not just to enrich your meals but also to nourish your well-being. 
+Step into a world of wellness and culinary delight with our exquisite range of organic products.
     </pre>
     </div>
     <div class="grid-container">
@@ -135,7 +139,7 @@ Oils, Vinegars and many more things which can be very helpful in your dailylife 
     <footer class="site-footer bg-dark text-center">
         <div class="container">
             <div class="social-icons">
-                <a href="https://www.facebook.com/your_facebook_username_or_page_id/" target="_blank">
+                <a href="https://web.facebook.com/hsorganicofficial" target="_blank">
                     <i class="fab fa-facebook-f"></i>
                     <span class="icon-name">Facebook</span>
                 </a>

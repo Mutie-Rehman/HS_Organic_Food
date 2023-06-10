@@ -46,6 +46,10 @@
                     <li class="nav-item">
                         <a href="{{url('/myItem')}}" class="nav-link smoothScroll">More Items</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="{{url('/myReview')}}" class="nav-link smoothScroll">Reviews</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -134,7 +138,7 @@
     <footer class="site-footer bg-dark text-center">
         <div class="container">
             <div class="social-icons">
-                <a href="https://www.facebook.com/your_facebook_username_or_page_id/" target="_blank">
+                <a href="https://web.facebook.com/hsorganicofficial" target="_blank">
                     <i class="fab fa-facebook-f"></i>
                     <span class="icon-name">Facebook</span>
                 </a>
