@@ -134,8 +134,7 @@ strong {
 -----------------------------------------*/
 
 .hero {
-    background-image: url('');
-    background-size: cover;
+
     background-position: top;
     vertical-align: middle;
     min-height: 100vh;
@@ -143,11 +142,31 @@ strong {
 }
 
 .center-content {
+    margin-top: 10px;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('/images/home page.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    /* Adjust the opacity value (0.6) to make it darker or lighter */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 250px;
 }
 
 #home-btn {

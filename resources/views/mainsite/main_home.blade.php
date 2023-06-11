@@ -60,15 +60,12 @@
 
     <!-- HOME -->
     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
-        <div class="center-content">
-            <h1 class="text-center welcome-heading">Welcome to
-                <br><br>
-                HS Organic Official
-                <br><br>
-                Store
-            </h1>
-            <a href="https://wa.me/+923010153266" target="_blank" id="home-btn" class=" btn mt-3">Shop Now</a>
-        </div>
+    <div class="center-content">
+    <div class="overlay">
+        <h1 class="text-center welcome-heading">Welcome to<br><br>HS Organic Official<br><br>Store</h1>
+        <a href="https://wa.me/+923010153266" target="_blank" id="home-btn" class="btn mt-3">Shop Now</a>
+    </div>
+</div>
         <div class="hcontainer">
             <div class="product-text text-center">
                 <b>
