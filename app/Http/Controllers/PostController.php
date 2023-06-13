@@ -49,7 +49,7 @@ class PostController extends Controller
             'email' => 'required|email',
             'phone' => 'required|digits:11|numeric',
             'comment' => 'required',
-            'rating' => 'required'
+            'rating' => 'required',
         ]);
     
         $review = new ReviewRating();

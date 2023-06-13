@@ -90,9 +90,6 @@ a:hover {
     </nav>
 </head>
 <body>
- 
-
- 
 <div class="row">
   <div class="leftcolumn">
    @foreach($posts as $post)
@@ -106,7 +103,7 @@ a:hover {
   </div>
 </div>
 </div>
-<footer class="site-footer bg-dark text-center">
+<footer class="site-footer bg-dark text-center" style="">
         <div class="container">
             <div class="social-icons">
                 <a href="https://web.facebook.com/hsorganicofficial" target="_blank">
